@@ -1,0 +1,135 @@
+{
+  "version_contrato": "v1",
+  "version_modelo": "v1-sintetico",
+  "version_diccionario": "v1-8vars",
+  "escenario_tipico": {
+    "probabilidad_modelo": 0.2113,
+    "probabilidad_calibrada": 0.1711,
+    "shap": {
+      "base_value": 0.2105,
+      "reconstruye": 0.2113,
+      "aditividad_ok": true
+    },
+    "factores_top": [
+      {
+        "variable": "n_creditos_activos",
+        "valor": 3.0,
+        "contribucion": 0.0522
+      }
+    ],
+    "contribuciones": [
+      {
+        "variable": "n_creditos_activos",
+        "valor": 3.0,
+        "contribucion": 0.0522
+      },
+      {
+        "variable": "nivel_educativo",
+        "valor": 1.0,
+        "contribucion": 0.013
+      },
+      {
+        "variable": "n_dependientes",
+        "valor": 2.0,
+        "contribucion": 0.0119
+      },
+      {
+        "variable": "ratio_monto_ingreso",
+        "valor": 0.3333,
+        "contribucion": -0.0041
+      },
+      {
+        "variable": "ratio_cuota_ingreso",
+        "valor": 0.15,
+        "contribucion": -0.0068
+      },
+      {
+        "variable": "edad",
+        "valor": 34.0,
+        "contribucion": -0.0104
+      },
+      {
+        "variable": "atraso_30d_12m",
+        "valor": 0.0,
+        "contribucion": -0.0141
+      },
+      {
+        "variable": "ratio_deuda_ingreso",
+        "valor": 0.8333,
+        "contribucion": -0.0408
+      }
+    ],
+    "advertencias": []
+  },
+  "escenario_peor_mes": {
+    "probabilidad_modelo": 0.5166,
+    "probabilidad_calibrada": 0.521,
+    "shap": {
+      "base_value": 0.2105,
+      "reconstruye": 0.5166,
+      "aditividad_ok": true
+    },
+    "factores_top": [
+      {
+        "variable": "ratio_cuota_ingreso",
+        "valor": 0.375,
+        "contribucion": 0.2596
+      },
+      {
+        "variable": "n_creditos_activos",
+        "valor": 3.0,
+        "contribucion": 0.0874
+      },
+      {
+        "variable": "n_dependientes",
+        "valor": 2.0,
+        "contribucion": 0.0225
+      }
+    ],
+    "contribuciones": [
+      {
+        "variable": "ratio_cuota_ingreso",
+        "valor": 0.375,
+        "contribucion": 0.2596
+      },
+      {
+        "variable": "n_creditos_activos",
+        "valor": 3.0,
+        "contribucion": 0.0874
+      },
+      {
+        "variable": "n_dependientes",
+        "valor": 2.0,
+        "contribucion": 0.0225
+      },
+      {
+        "variable": "nivel_educativo",
+        "valor": 1.0,
+        "contribucion": 0.0093
+      },
+      {
+        "variable": "edad",
+        "valor": 34.0,
+        "contribucion": -0.0042
+      },
+      {
+        "variable": "ratio_monto_ingreso",
+        "valor": 0.3333,
+        "contribucion": -0.009
+      },
+      {
+        "variable": "atraso_30d_12m",
+        "valor": 0.0,
+        "contribucion": -0.0146
+      },
+      {
+        "variable": "ratio_deuda_ingreso",
+        "valor": 0.8333,
+        "contribucion": -0.0448
+      }
+    ],
+    "advertencias": []
+  },
+  "recomendaciones": [],
+  "modo": "BASE"
+}

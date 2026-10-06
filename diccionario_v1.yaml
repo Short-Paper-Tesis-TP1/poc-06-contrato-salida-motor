@@ -1,0 +1,12 @@
+# Diccionario de variables usado por esta PoC (version de 8 variables, anterior al diccionario congelado de 9).
+# Reducido a los campos que el script lee: version y, por variable, orden y nombre.
+version: v1-8vars
+variables:
+  - {orden: 1, nombre: ratio_cuota_ingreso}
+  - {orden: 2, nombre: ratio_deuda_ingreso}
+  - {orden: 3, nombre: ratio_monto_ingreso}
+  - {orden: 4, nombre: n_creditos_activos}
+  - {orden: 5, nombre: atraso_30d_12m}
+  - {orden: 6, nombre: edad}
+  - {orden: 7, nombre: nivel_educativo}
+  - {orden: 8, nombre: n_dependientes}

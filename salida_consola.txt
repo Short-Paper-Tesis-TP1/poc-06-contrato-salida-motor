@@ -1,0 +1,8 @@
+escenario_tipico     p_modelo=0.211  p_calibrada=0.171  SHAP reconstruye=0.211  aditividad_ok=True
+   top: [('n_creditos_activos', 0.0522)] []
+escenario_peor_mes   p_modelo=0.517  p_calibrada=0.521  SHAP reconstruye=0.517  aditividad_ok=True
+   top: [('ratio_cuota_ingreso', 0.2596), ('n_creditos_activos', 0.0874), ('n_dependientes', 0.0225)] []
+ratio_cuota_ingreso= 0.74 -> p_modelo=0.848
+ratio_cuota_ingreso= 0.92 -> p_modelo=0.848
+ratio_cuota_ingreso= 1.85 -> p_modelo=0.848
+ratio_cuota_ingreso= 4.62 -> p_modelo=0.848
